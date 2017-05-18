@@ -200,7 +200,8 @@
     //主界面的大小
     UIView *mainView = [[UIView alloc]initWithFrame:kScreenB];
     _mainView = mainView;
-    mainView.backgroundColor = [UIColor orangeColor];
+    
+    _mainView.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:mainView];
     
     //@"开始游戏"按钮
