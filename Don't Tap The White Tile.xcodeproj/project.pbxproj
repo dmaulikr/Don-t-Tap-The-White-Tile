@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F15282061EC16C1600CC1842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F15282051EC16C1600CC1842 /* main.m */; };
+		F15282091EC16C1600CC1842 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F15282081EC16C1600CC1842 /* AppDelegate.m */; };
+		F152820C1EC16C1600CC1842 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F152820B1EC16C1600CC1842 /* ViewController.m */; };
+		F152820F1EC16C1600CC1842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F152820D1EC16C1600CC1842 /* Main.storyboard */; };
+		F15282111EC16C1600CC1842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15282101EC16C1600CC1842 /* Assets.xcassets */; };
+		F15282141EC16C1600CC1842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15282121EC16C1600CC1842 /* LaunchScreen.storyboard */; };
+		F152821F1EC16C1600CC1842 /* Don_t_Tap_The_White_TileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F152821E1EC16C1600CC1842 /* Don_t_Tap_The_White_TileTests.m */; };
+		F152822A1EC16C1600CC1842 /* Don_t_Tap_The_White_TileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F15282291EC16C1600CC1842 /* Don_t_Tap_The_White_TileUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F152821B1EC16C1600CC1842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15281F91EC16C1600CC1842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15282001EC16C1600CC1842;
+			remoteInfo = "Don't Tap The White Tile";
+		};
+		F15282261EC16C1600CC1842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15281F91EC16C1600CC1842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15282001EC16C1600CC1842;
+			remoteInfo = "Don't Tap The White Tile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F15282011EC16C1600CC1842 /* Don't Tap The White Tile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Don't Tap The White Tile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15282051EC16C1600CC1842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F15282071EC16C1600CC1842 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F15282081EC16C1600CC1842 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F152820A1EC16C1600CC1842 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F152820B1EC16C1600CC1842 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F152820E1EC16C1600CC1842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F15282101EC16C1600CC1842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F15282131EC16C1600CC1842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F15282151EC16C1600CC1842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F152821A1EC16C1600CC1842 /* Don't Tap The White TileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Don't Tap The White TileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F152821E1EC16C1600CC1842 /* Don_t_Tap_The_White_TileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Don_t_Tap_The_White_TileTests.m; sourceTree = "<group>"; };
+		F15282201EC16C1600CC1842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15282251EC16C1600CC1842 /* Don't Tap The White TileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Don't Tap The White TileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15282291EC16C1600CC1842 /* Don_t_Tap_The_White_TileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Don_t_Tap_The_White_TileUITests.m; sourceTree = "<group>"; };
+		F152822B1EC16C1600CC1842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F15281FE1EC16C1600CC1842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15282171EC16C1600CC1842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15282221EC16C1600CC1842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F15281F81EC16C1600CC1842 = {
+			isa = PBXGroup;
+			children = (
+				F15282031EC16C1600CC1842 /* Don't Tap The White Tile */,
+				F152821D1EC16C1600CC1842 /* Don't Tap The White TileTests */,
+				F15282281EC16C1600CC1842 /* Don't Tap The White TileUITests */,
+				F15282021EC16C1600CC1842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F15282021EC16C1600CC1842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F15282011EC16C1600CC1842 /* Don't Tap The White Tile.app */,
+				F152821A1EC16C1600CC1842 /* Don't Tap The White TileTests.xctest */,
+				F15282251EC16C1600CC1842 /* Don't Tap The White TileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F15282031EC16C1600CC1842 /* Don't Tap The White Tile */ = {
+			isa = PBXGroup;
+			children = (
+				F15282071EC16C1600CC1842 /* AppDelegate.h */,
+				F15282081EC16C1600CC1842 /* AppDelegate.m */,
+				F152820A1EC16C1600CC1842 /* ViewController.h */,
+				F152820B1EC16C1600CC1842 /* ViewController.m */,
+				F152820D1EC16C1600CC1842 /* Main.storyboard */,
+				F15282101EC16C1600CC1842 /* Assets.xcassets */,
+				F15282121EC16C1600CC1842 /* LaunchScreen.storyboard */,
+				F15282151EC16C1600CC1842 /* Info.plist */,
+				F15282041EC16C1600CC1842 /* Supporting Files */,
+			);
+			path = "Don't Tap The White Tile";
+			sourceTree = "<group>";
+		};
+		F15282041EC16C1600CC1842 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F15282051EC16C1600CC1842 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F152821D1EC16C1600CC1842 /* Don't Tap The White TileTests */ = {
+			isa = PBXGroup;
+			children = (
+				F152821E1EC16C1600CC1842 /* Don_t_Tap_The_White_TileTests.m */,
+				F15282201EC16C1600CC1842 /* Info.plist */,
+			);
+			path = "Don't Tap The White TileTests";
+			sourceTree = "<group>";
+		};
+		F15282281EC16C1600CC1842 /* Don't Tap The White TileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F15282291EC16C1600CC1842 /* Don_t_Tap_The_White_TileUITests.m */,
+				F152822B1EC16C1600CC1842 /* Info.plist */,
+			);
+			path = "Don't Tap The White TileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F15282001EC16C1600CC1842 /* Don't Tap The White Tile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F152822E1EC16C1600CC1842 /* Build configuration list for PBXNativeTarget "Don't Tap The White Tile" */;
+			buildPhases = (
+				F15281FD1EC16C1600CC1842 /* Sources */,
+				F15281FE1EC16C1600CC1842 /* Frameworks */,
+				F15281FF1EC16C1600CC1842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Don't Tap The White Tile";
+			productName = "Don't Tap The White Tile";
+			productReference = F15282011EC16C1600CC1842 /* Don't Tap The White Tile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F15282191EC16C1600CC1842 /* Don't Tap The White TileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15282311EC16C1600CC1842 /* Build configuration list for PBXNativeTarget "Don't Tap The White TileTests" */;
+			buildPhases = (
+				F15282161EC16C1600CC1842 /* Sources */,
+				F15282171EC16C1600CC1842 /* Frameworks */,
+				F15282181EC16C1600CC1842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F152821C1EC16C1600CC1842 /* PBXTargetDependency */,
+			);
+			name = "Don't Tap The White TileTests";
+			productName = "Don't Tap The White TileTests";
+			productReference = F152821A1EC16C1600CC1842 /* Don't Tap The White TileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F15282241EC16C1600CC1842 /* Don't Tap The White TileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15282341EC16C1600CC1842 /* Build configuration list for PBXNativeTarget "Don't Tap The White TileUITests" */;
+			buildPhases = (
+				F15282211EC16C1600CC1842 /* Sources */,
+				F15282221EC16C1600CC1842 /* Frameworks */,
+				F15282231EC16C1600CC1842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15282271EC16C1600CC1842 /* PBXTargetDependency */,
+			);
+			name = "Don't Tap The White TileUITests";
+			productName = "Don't Tap The White TileUITests";
+			productReference = F15282251EC16C1600CC1842 /* Don't Tap The White TileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F15281F91EC16C1600CC1842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "'";
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "wang yuchao";
+				TargetAttributes = {
+					F15282001EC16C1600CC1842 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					F15282191EC16C1600CC1842 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F15282001EC16C1600CC1842;
+					};
+					F15282241EC16C1600CC1842 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F15282001EC16C1600CC1842;
+					};
+				};
+			};
+			buildConfigurationList = F15281FC1EC16C1600CC1842 /* Build configuration list for PBXProject "Don't Tap The White Tile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F15281F81EC16C1600CC1842;
+			productRefGroup = F15282021EC16C1600CC1842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F15282001EC16C1600CC1842 /* Don't Tap The White Tile */,
+				F15282191EC16C1600CC1842 /* Don't Tap The White TileTests */,
+				F15282241EC16C1600CC1842 /* Don't Tap The White TileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F15281FF1EC16C1600CC1842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15282141EC16C1600CC1842 /* LaunchScreen.storyboard in Resources */,
+				F15282111EC16C1600CC1842 /* Assets.xcassets in Resources */,
+				F152820F1EC16C1600CC1842 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15282181EC16C1600CC1842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15282231EC16C1600CC1842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F15281FD1EC16C1600CC1842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F152820C1EC16C1600CC1842 /* ViewController.m in Sources */,
+				F15282091EC16C1600CC1842 /* AppDelegate.m in Sources */,
+				F15282061EC16C1600CC1842 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15282161EC16C1600CC1842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F152821F1EC16C1600CC1842 /* Don_t_Tap_The_White_TileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15282211EC16C1600CC1842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F152822A1EC16C1600CC1842 /* Don_t_Tap_The_White_TileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F152821C1EC16C1600CC1842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15282001EC16C1600CC1842 /* Don't Tap The White Tile */;
+			targetProxy = F152821B1EC16C1600CC1842 /* PBXContainerItemProxy */;
+		};
+		F15282271EC16C1600CC1842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15282001EC16C1600CC1842 /* Don't Tap The White Tile */;
+			targetProxy = F15282261EC16C1600CC1842 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F152820D1EC16C1600CC1842 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F152820E1EC16C1600CC1842 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F15282121EC16C1600CC1842 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15282131EC16C1600CC1842 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F152822C1EC16C1600CC1842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F152822D1EC16C1600CC1842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F152822F1EC16C1600CC1842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Don't Tap The White Tile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyuchao.ios.Don-t-Tap-The-White-Tile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F15282301EC16C1600CC1842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Don't Tap The White Tile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyuchao.ios.Don-t-Tap-The-White-Tile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F15282321EC16C1600CC1842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Don't Tap The White TileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyuchao.ios.Don-t-Tap-The-White-TileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Don't Tap The White Tile.app/Don't Tap The White Tile";
+			};
+			name = Debug;
+		};
+		F15282331EC16C1600CC1842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Don't Tap The White TileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyuchao.ios.Don-t-Tap-The-White-TileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Don't Tap The White Tile.app/Don't Tap The White Tile";
+			};
+			name = Release;
+		};
+		F15282351EC16C1600CC1842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Don't Tap The White TileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyuchao.ios.Don-t-Tap-The-White-TileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Don't Tap The White Tile";
+			};
+			name = Debug;
+		};
+		F15282361EC16C1600CC1842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Don't Tap The White TileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wangyuchao.ios.Don-t-Tap-The-White-TileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Don't Tap The White Tile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F15281FC1EC16C1600CC1842 /* Build configuration list for PBXProject "Don't Tap The White Tile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F152822C1EC16C1600CC1842 /* Debug */,
+				F152822D1EC16C1600CC1842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F152822E1EC16C1600CC1842 /* Build configuration list for PBXNativeTarget "Don't Tap The White Tile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F152822F1EC16C1600CC1842 /* Debug */,
+				F15282301EC16C1600CC1842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F15282311EC16C1600CC1842 /* Build configuration list for PBXNativeTarget "Don't Tap The White TileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15282321EC16C1600CC1842 /* Debug */,
+				F15282331EC16C1600CC1842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F15282341EC16C1600CC1842 /* Build configuration list for PBXNativeTarget "Don't Tap The White TileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15282351EC16C1600CC1842 /* Debug */,
+				F15282361EC16C1600CC1842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F15281F91EC16C1600CC1842 /* Project object */;
+}
